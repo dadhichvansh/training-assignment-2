@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nature - Wikipedia Clone</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: sans-serif;
+        background-color: #f6f6f6;
+        color: #202122;
+      }
+
+      .top-bar {
+        background-color: #f8f9fa;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #a2a9b1;
+      }
+
+      .top-bar input[type="text"] {
+        width: 250px;
+        padding: 6px;
+      }
+
+      .top-bar .right-links a {
+        margin-left: 15px;
+        font-size: 14px;
+        text-decoration: none;
+        color: #0645ad;
+      }
+
+      .container {
+        display: flex;
+        padding: 20px;
+      }
+
+      .sidebar {
+        width: 25%;
+        padding-right: 20px;
+      }
+
+      .sidebar h3 {
+        font-size: 14px;
+        margin-bottom: 10px;
+      }
+
+      .sidebar ul {
+        list-style-type: none;
+        font-size: 13px;
+        margin-left: 10px;
+      }
+
+      .sidebar ul > li {
+        margin-bottom: 6px;
+      }
+
+      .sidebar ol {
+        margin-left: 15px;
+      }
+
+      .sidebar a {
+        text-decoration: none;
+        color: #0645ad;
+      }
+
+      .content {
+        width: 75%;
+        background-color: white;
+        padding: 20px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      }
+
+      .content h1 {
+        font-size: 28px;
+        margin-bottom: 10px;
+      }
+
+      .content em {
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      .content img {
+        float: right;
+        margin-left: 15px;
+        width: 300px;
+        border: 1px solid #ccc;
+      }
+
+      .content p {
+        margin-bottom: 15px;
+        font-size: 15px;
+        line-height: 1.6;
+      }
+
+      .logo {
+        font-size: 24px;
+        font-weight: bold;
+        color: #000;
+      }
+
+      .logo small {
+        font-size: 12px;
+        color: #444;
+        display: block;
+      }
+
+      a {
+        color: #0645ad;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="top-bar">
+      <div class="logo">
+        Wikipedia
+        <small>The Free Encyclopedia</small>
+      </div>
+      <input type="text" placeholder="Search Wikipedia" />
+      <nav class="right-links">
+        <a href="#">Donate</a>
+        <a href="#">Create account</a>
+        <a href="#">Log in</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <aside class="sidebar">
+        <h3>Contents</h3>
+        <ul>
+          <li><strong>(Top)</strong></li>
+          <li><strong>Etymology</strong></li>
+          <li>
+            <strong>Earth</strong>
+            <ol>
+              <li><a href="#">Geology</a></li>
+              <li><a href="#">Geological evolution</a></li>
+              <li><a href="#">Atmosphere, climate, and weather</a></li>
+            </ol>
+          </li>
+          <li>
+            <strong>Water on Earth</strong>
+            <ol>
+              <li><a href="#">Oceans</a></li>
+              <li><a href="#">Lakes</a></li>
+              <li><a href="#">Ponds</a></li>
+              <li><a href="#">Rivers</a></li>
+              <li><a href="#">Streams</a></li>
+            </ol>
+          </li>
+          <li><strong>Ecosystems</strong></li>
+          <li><strong>Wilderness</strong></li>
+          <li>
+            <strong>Life</strong>
+            <ol>
+              <li><a href="#">Evolution</a></li>
+              <li><a href="#">Microbes</a></li>
+              <li><a href="#">Plants and animals</a></li>
+            </ol>
+          </li>
+          <li>
+            <strong>Human interrelationship</strong>
+            <ol>
+              <li><a href="#">Human impact</a></li>
+              <li><a href="#">Aesthetics and beauty</a></li>
+            </ol>
+          </li>
+        </ul>
+      </aside>
+
+      <article class="content">
+        <h1>Nature</h1>
+        <em
+          >"Natural" redirects here. For other uses, see
+          <a href="#">Nature (disambiguation)</a>.</em
+        >
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Star_trails_above_Mount_Bromo.jpg/450px-Star_trails_above_Mount_Bromo.jpg"
+          alt="Star trails at Mount Bromo"
+        />
+        <p>
+          <strong>Nature</strong> is an inherent character or constitution,
+          particularly of the ecosystem or the universe as a whole. In this
+          general sense, nature refers to the laws, elements, and phenomena of
+          the physical world, including life. Although humans are part of
+          nature, human activity or humans as a whole are often described as at
+          odds, or outright separate and even superior to nature.
+        </p>
+        <p>
+          During the advent of modern <a href="#">scientific method</a> in the
+          last several centuries, nature became the passive reality, organized
+          and moved by divine laws. With the
+          <a href="#">Industrial Revolution</a>, nature increasingly became seen
+          as the part of reality deprived from intentional intervention: it was
+          hence considered as sacred.
+        </p>
+        <p>
+          Within the various uses of the word today, “nature” often refers to
+          <a href="#">geology</a> and <a href="#">wildlife</a>. Nature can refer
+          to the general realm of living beings, and in some cases to the
+          processes associated with inanimate objects.
+        </p>
+      </article>
+    </main>
+  </body>
+</html>
